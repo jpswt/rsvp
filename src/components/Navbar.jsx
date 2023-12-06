@@ -40,7 +40,7 @@ const Navbar = () => {
 								: ' text-primary hover:text-secondary cursor-pointer'
 						}
 					>
-						Home
+						<a href="#home">Home</a>
 					</li>
 					<li
 						className={
@@ -49,7 +49,7 @@ const Navbar = () => {
 								: ' text-primary hover:text-secondary cursor-pointer'
 						}
 					>
-						Couple
+						<a href="#couple">Couple</a>
 					</li>
 					<li
 						className={
@@ -77,6 +77,15 @@ const Navbar = () => {
 						}
 					>
 						RSVP
+					</li>
+					<li
+						className={
+							navColor
+								? 'text-primary cursor-pointer'
+								: ' text-primary hover:text-secondary cursor-pointer'
+						}
+					>
+						Registry
 					</li>
 				</ul>
 				<div
@@ -138,6 +147,15 @@ const Navbar = () => {
 							}
 						>
 							RSVP
+						</li>
+						<li
+							className={
+								navColor
+									? 'text-primary cursor-pointer'
+									: ' text-primary hover:text-secondary cursor-pointer'
+							}
+						>
+							Registry
 						</li>
 					</ul>
 				</div>

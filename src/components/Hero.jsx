@@ -2,7 +2,10 @@ import HeroHeart from '../assets/images/HeroHeart.png';
 
 const Hero = () => {
 	return (
-		<div className="relative h-screen w-screen bg-left-4 md:bg-right-4 bg-hero bg-cover bg-no-repeat">
+		<div
+			className="relative h-screen w-screen bg-left-4 md:bg-right-4 bg-hero bg-cover bg-no-repeat"
+			id="home"
+		>
 			<div className=" absolute inset-0 bg-gray-800 opacity-50"></div>
 
 			<div className="flex items-center justify-center h-full">
