@@ -10,12 +10,19 @@ export default {
 		textColor: {
 			primary: 'white',
 			secondary: '#aec6cf',
+			accent: '#fffcf2',
 		},
 		backgroundColor: {
 			primary: '#aec6cf',
+			secondary: '#fffcf2',
 		},
 		backgroundImage: {
 			hero: "url('../src/assets/images/hero.avif')",
+			heart: "url('../src/assets/images/HeroHeart.png')",
+		},
+		backgroundPosition: {
+			'left-4': 'center left -14rem',
+			'right-4': 'left 0rem',
 		},
 	},
 	plugins: [],

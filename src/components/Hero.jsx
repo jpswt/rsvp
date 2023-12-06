@@ -2,16 +2,29 @@ import HeroHeart from '../assets/images/HeroHeart.png';
 
 const Hero = () => {
 	return (
-		<div className="relative h-screen w-full bg-left md:bg-cover bg-hero bg-cover bg-no-repeat">
-			{/* <img
-				className="w-full min-w-[700px] h-screen object-cover object-center md:min-w-full"
-				src="https://images.unsplash.com/photo-1621621667797-e06afc217fb0?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-				alt=""
-			/> */}
+		<div className="relative h-screen w-screen bg-left-4 md:bg-right-4 bg-hero bg-cover bg-no-repeat">
 			<div className=" absolute inset-0 bg-gray-800 opacity-50"></div>
-			{/* <div className="absolute top-[20%] left-[15%] md:left-[25%] lg:left-[36%] w-[80%] ">
-				<img src={HeroHeart} alt="" className="w-[30rem] lg:w-[36rem]  " />
-			</div> */}
+
+			<div className="flex items-center justify-center h-full">
+				<div className="relative">
+					<img
+						src={HeroHeart}
+						alt=""
+						className="w-[25rem] lg:w-[36rem] opacity-90  "
+					/>
+					<div className="absolute top-36 left-16  lg:top-56 lg:left-28 flex flex-col items-center justify-center gap-6">
+						<p className="text-primary font-nav text-xl lg:text-2xl">
+							WE'RE GETTING MARRIED
+						</p>
+						<p className="text-primary font-cursive text-5xl lg:text-6xl">
+							Save the Date
+						</p>
+						<p className="text-primary font-nav text-xl lg:text-2xl">
+							April 13, 2024
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };

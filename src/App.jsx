@@ -1,3 +1,4 @@
+import Countdown from './components/Countdown';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 
@@ -6,17 +7,8 @@ function App() {
 		<>
 			<Navbar />
 			<Hero />
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
+			<Countdown />
+
 			<p>sdfsfda</p>
 			<p>sdfsfda</p>
 			<p>sdfsfda</p>
