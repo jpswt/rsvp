@@ -19,6 +19,7 @@ export default {
 		backgroundImage: {
 			hero: "url('../src/assets/images/hero.avif')",
 			heart: "url('../src/assets/images/HeroHeart.png')",
+			rsvp: "url('../src/assets/images/rsvp-hands.avif')",
 		},
 		backgroundPosition: {
 			'left-4': 'center left -14rem',
