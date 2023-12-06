@@ -3,7 +3,7 @@ import Banner from './Banner';
 const Story = () => {
 	return (
 		<div>
-			<Banner />
+			<Banner title="Our Story" />
 		</div>
 	);
 };

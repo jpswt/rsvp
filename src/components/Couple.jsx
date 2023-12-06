@@ -5,7 +5,7 @@ const Couple = () => {
 	return (
 		<section>
 			<Banner title="Bride & Groom" />
-			<article className="max-w-[1200px] m-auto flex-col flex lg:flex-row w-full items-center justify-between ">
+			<article className="max-w-[1200px] m-auto flex-col flex lg:flex-row w-full items-center justify-between mt-10 ">
 				<div className="flex flex-col justify-center items-center font-nav">
 					<img
 						className="w-[350px] h-[350px] md:w-[420px] md:h-[420px] border-2 border-[#aec6cf] rounded-full object-fit"
