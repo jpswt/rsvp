@@ -4,7 +4,7 @@ import Banner from './Banner';
 const Couple = () => {
 	return (
 		<section>
-			<Banner title="Bride & Groom" />
+			<Banner title="Bride & Groom" idName="couple" />
 			<article className="max-w-[1200px] m-auto flex-col flex lg:flex-row w-full items-center justify-between mt-10 ">
 				<div className="flex flex-col justify-center items-center font-nav">
 					<img

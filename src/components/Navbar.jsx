@@ -58,7 +58,7 @@ const Navbar = () => {
 								: ' text-primary hover:text-secondary cursor-pointer'
 						}
 					>
-						Our Story
+						<a href="#story">Our Story</a>
 					</li>
 					<li
 						className={
