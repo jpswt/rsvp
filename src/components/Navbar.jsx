@@ -67,7 +67,7 @@ const Navbar = () => {
 								: ' text-primary hover:text-secondary cursor-pointer'
 						}
 					>
-						Venue
+						<a href="#venue">Venue</a>
 					</li>
 					<li
 						className={
@@ -76,7 +76,7 @@ const Navbar = () => {
 								: ' text-primary hover:text-secondary cursor-pointer'
 						}
 					>
-						RSVP
+						<a href="#rsvp">Rsvp</a>
 					</li>
 					<li
 						className={
@@ -85,7 +85,7 @@ const Navbar = () => {
 								: ' text-primary hover:text-secondary cursor-pointer'
 						}
 					>
-						Registry
+						<a href="#gift">Registry</a>
 					</li>
 				</ul>
 				<div

@@ -4,7 +4,7 @@ import VenueCard from './VenueCard';
 const Venue = () => {
 	return (
 		<div className="max-w-[1200px] m-auto">
-			<Banner title="Venue" />
+			<Banner title="Venue" idName="venue" />
 			<VenueCard
 				id={0}
 				url="https://images.unsplash.com/photo-1522143296900-b2c450f80fa7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlZGRpbmclMjBjZXJlbW9ueXxlbnwwfDB8MHx8fDA%3D"

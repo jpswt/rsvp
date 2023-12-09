@@ -3,7 +3,7 @@ import Banner from './Banner';
 const Gift = () => {
 	return (
 		<div className="max-w-[1200px] m-auto">
-			<Banner title="Gift Registration" idName="gift" />
+			<Banner title="Gift Registry" idName="gift" />
 			<p className="text-center max-w-[50%] m-auto mt-10">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere
 				quaerat aliquam minima incidunt eos, eum ab mollitia corporis nobis!
