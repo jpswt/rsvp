@@ -19,8 +19,12 @@ const Hero2 = () => {
 						aperiam. Sit ab deserunt corporis beatae cum modi dolores.
 					</p>
 					<div className="flex gap-4">
-						<Button url="#home">RSVP</Button>
-						<Button url="#couple">REGISTRY</Button>
+						<Button url="#home" target="">
+							RSVP
+						</Button>
+						<Button url="#couple" target="">
+							REGISTRY
+						</Button>
 					</div>
 				</div>
 			</div>

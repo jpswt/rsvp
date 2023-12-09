@@ -53,7 +53,6 @@ const Story = () => {
 							background: '#aec6cf',
 							color: '#fff',
 							border: 'none',
-							zIndex: 20,
 						}}
 						style={{ margin: '40px 0 0 0' }}
 						icon={<GiOppositeHearts className="scale-125 opacity-80" />}
@@ -90,7 +89,6 @@ const Story = () => {
 							background: '#aec6cf',
 							color: '#fff',
 							border: 'none',
-							zIndex: 20,
 						}}
 						// style={{ margin: '0' }}
 						icon={<GiOppositeHearts className="scale-125 opacity-80" />}
@@ -128,7 +126,6 @@ const Story = () => {
 							background: '#aec6cf',
 							color: '#fff',
 							border: 'none',
-							zIndex: 20,
 						}}
 						// style={{ margin: '0' }}
 						icon={<GiOppositeHearts className="scale-125 opacity-80" />}
