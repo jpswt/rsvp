@@ -5,6 +5,7 @@ import Gift from './components/Gift';
 import Hero from './components/Hero';
 import Hero2 from './components/Hero2';
 import Navbar from './components/Navbar';
+import Rsvp from './components/Rsvp';
 import Story from './components/Story';
 import Venue from './components/Venue';
 
@@ -19,28 +20,8 @@ function App() {
 			<Story />
 			<Venue />
 			<Gallery />
+			<Rsvp />
 			<Gift />
-
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
-			<p>sdfsfda</p>
 		</>
 	);
 }

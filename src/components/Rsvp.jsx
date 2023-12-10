@@ -1,34 +1,53 @@
 import HeroHeart from '../assets/images/HeroHeart.png';
+import Banner from './Banner';
 import Button from './Button';
 
-const Hero2 = () => {
+const Rsvp = () => {
 	return (
-		<div
-			className="relative h-1/2 w-screen bg-left-4 md:bg-right-4 bg-fixed bg-rsvp bg-cover bg-no-repeat mt-24"
-			id="home"
+		<section
+			className="relative flex flex-col h-screen w-screen bg-left-4 md:bg-right-4 bg-fixed bg-rsvp bg-cover bg-no-repeat mt-24"
+			id="rsvp"
 		>
-			<div className=" absolute inset-0 bg-primary opacity-50"></div>
-
-			<div className="flex items-center justify-center h-full min-h-[500px]">
-				<div className="absolute top-50 left-50 lg:top-50 lg:left-50 flex flex-col items-center justify-center gap-6 w-full  md:w-1/2">
-					<p className="text-primary font-cursive text-3xl lg:text-5xl">
-						Welcome to Our Wedding Day
-					</p>
-					<p className="text-primary font-nav text-lg md:text-xl lg:text-2xl px-6 text-center">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-						aperiam. Sit ab deserunt corporis beatae cum modi dolores.
-					</p>
-					<div className="flex gap-4">
-						<Button url="#home" target="">
-							RSVP
-						</Button>
-						<Button url="#gift" target="">
-							REGISTRY
-						</Button>
+			<div className=" absolute inset-0 bg-primary opacity-30"></div>
+			<div className=" bg-white w-[90%] md:max-w-[560px]  m-auto z-0 min-h-[600px]">
+				<Banner title="Be Our Guest" idName="" />
+				<p className="text-center pt-4 text-gray-500 font-nav">
+					Please reserve before February 1st, 2024
+				</p>
+				<form action="" className="px-20 pt-10">
+					<input
+						type="text"
+						placeholder="Your Name"
+						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 outline-[#aec6cf]"
+					/>
+					<input
+						type="email"
+						placeholder="Your Email"
+						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4"
+					/>
+					<select className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 text-gray-400">
+						<option selected>Number of RSVP</option>
+						<option value={1}>1</option>
+						<option value={2}>2</option>
+						<option value={3}>3</option>
+						<option value={4}>4</option>
+					</select>
+					<textarea
+						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 text-gray-400"
+						name="message"
+						id="message"
+						cols="30"
+						rows="5"
+						placeholder="Message"
+					/>
+					<div className="flex items-center justify-center">
+						<button className="bg-primary px-3 py-1 text-white font-nav rounded-md">
+							Send Reservation
+						</button>
 					</div>
-				</div>
+				</form>
 			</div>
-		</div>
+		</section>
 	);
 };
-export default Hero2;
+export default Rsvp;
