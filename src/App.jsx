@@ -1,5 +1,6 @@
 import Countdown from './components/Countdown';
 import Couple from './components/Couple';
+import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Gift from './components/Gift';
 import Hero from './components/Hero';
@@ -22,6 +23,7 @@ function App() {
 			<Gallery />
 			<Rsvp />
 			<Gift />
+			<Footer />
 		</>
 	);
 }
