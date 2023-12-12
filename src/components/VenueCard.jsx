@@ -1,7 +1,6 @@
 import Button from './Button';
 
 const VenueCard = ({ id, url, title, date, address, info }) => {
-	console.log(id);
 	return (
 		<section
 			className={
