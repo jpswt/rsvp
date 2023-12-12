@@ -59,7 +59,7 @@ const Rsvp = () => {
 				<p className="text-center pt-4 text-gray-500 font-nav">
 					Please reserve before February 1st, 2024
 				</p>
-				<form onSubmit={handleSubmit} className="px-20 pt-10">
+				<form onSubmit={handleSubmit} className="px-6 md:px-20 pt-10">
 					<input
 						type="text"
 						name="name"
@@ -71,13 +71,13 @@ const Rsvp = () => {
 						type="email"
 						name="email"
 						placeholder="Your Email"
-						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4"
+						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 outline-[#aec6cf]"
 						onChange={handleChange}
 					/>
 					<select
 						name="rsvp"
 						value={guest.rsvp}
-						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 text-gray-400"
+						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 text-gray-400 outline-[#aec6cf]"
 						onChange={handleChange}
 					>
 						<option value="" disabled hidden>
@@ -94,7 +94,7 @@ const Rsvp = () => {
 						cols="30"
 						rows="5"
 						placeholder="Message"
-						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 text-gray-400"
+						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 text-gray-400 outline-[#aec6cf]"
 						onChange={handleChange}
 					/>
 					<div className="flex items-center justify-center">
