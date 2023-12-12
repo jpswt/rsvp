@@ -10,6 +10,12 @@ const Navbar = () => {
 		setShowMenu(!showMenu);
 	};
 
+	const handleCloseMenu = () => {
+		setTimeout(() => {
+			setShowMenu(false);
+		}, 700);
+	};
+
 	const changeColorOnScroll = () => {
 		window.scrollY >= 70 ? setNavColor(true) : setNavColor(false);
 	};
@@ -98,64 +104,40 @@ const Navbar = () => {
 				<div
 					className={
 						showMenu
-							? 'fixed left-0 top-[70px] z-30 flex h-[100%] w-full flex-col items-center bg-primary duration-300 ease-in md:hidden'
-							: 'fixed left-[-100%] top-[70px] flex h-[100%] flex-col items-center duration-300 ease-in '
+							? 'fixed left-0 top-[0px] z-10 flex h-[100%] w-full flex-col items-center bg-primary duration-300 ease-in md:hidden'
+							: 'fixed left-[-100%] top-[0px] flex h-[100%] flex-col items-center duration-300 ease-in '
 					}
 				>
-					<ul className="w-full p-2">
-						<li
-							className={
-								navColor
-									? 'text-primary cursor-pointer'
-									: ' text-primary hover:text-secondary cursor-pointer'
-							}
-						>
-							Home
+					<ul className="w-full p-6 mt-[70px] flex flex-col gap-8 text-center">
+						<li className=" text-white text-3xl w-full p-2 border-white border-opacity-50">
+							<a href="#home" onClick={handleCloseMenu}>
+								Home
+							</a>
 						</li>
-						<li
-							className={
-								navColor
-									? 'text-primary cursor-pointer'
-									: ' text-primary hover:text-secondary cursor-pointer'
-							}
-						>
-							Couple
+						<li className=" text-white text-3xl w-full p-2 border-white border-opacity-50">
+							<a href="#couple" onClick={handleCloseMenu}>
+								Couple
+							</a>
 						</li>
-						<li
-							className={
-								navColor
-									? 'text-primary cursor-pointer'
-									: ' text-primary hover:text-secondary cursor-pointer'
-							}
-						>
-							Our Story
+						<li className=" text-white text-3xl w-full p-2 border-white border-opacity-50">
+							<a href="#story" onClick={handleCloseMenu}>
+								Our Story
+							</a>
 						</li>
-						<li
-							className={
-								navColor
-									? 'text-primary cursor-pointer'
-									: ' text-primary hover:text-secondary cursor-pointer'
-							}
-						>
-							Venue
+						<li className=" text-white text-3xl w-full p-2 border-white border-opacity-50">
+							<a href="#venue" onClick={handleCloseMenu}>
+								Venue
+							</a>
 						</li>
-						<li
-							className={
-								navColor
-									? 'text-primary cursor-pointer'
-									: ' text-primary hover:text-secondary cursor-pointer'
-							}
-						>
-							RSVP
+						<li className=" text-white text-3xl w-full px-2 border-white border-opacity-50">
+							<a href="#rsvp" onClick={handleCloseMenu}>
+								Rsvp
+							</a>
 						</li>
-						<li
-							className={
-								navColor
-									? 'text-primary cursor-pointer'
-									: ' text-primary hover:text-secondary cursor-pointer'
-							}
-						>
-							Registry
+						<li className=" text-white text-3xl w-full px-2 border-white border-opacity-50">
+							<a href="#gift" onClick={handleCloseMenu}>
+								Registry
+							</a>
 						</li>
 					</ul>
 				</div>
