@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import firestore from '../firebase';
+import { firestore } from '../firebase';
 import { doc, collection, getDocs } from 'firebase/firestore';
 
 const Dashboard = () => {
