@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Banner from './Banner';
 import { firestore } from '../firebase';
-import { collection, addDoc } from 'firebase/firestore';
+import { collection, addDoc } from '../firebase/firestore';
 
 const Rsvp = () => {
 	const [guest, setGuest] = useState({
