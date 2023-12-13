@@ -12,7 +12,7 @@ import Venue from './components/Venue';
 
 function App() {
 	return (
-		<>
+		<div className=" w-[100%] overflow-hidden">
 			<Navbar />
 			<Hero />
 			<Countdown />
@@ -24,7 +24,7 @@ function App() {
 			<Rsvp />
 			<Gift />
 			<Footer />
-		</>
+		</div>
 	);
 }
 
