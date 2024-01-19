@@ -33,11 +33,12 @@ const Story = () => {
 							width < breakpoint
 								? {
 										color: '#fff',
-										width: '300px',
+										width: '280px',
 										height: '500px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
+										fontSize: '2rem',
 								  }
 								: {
 										color: '#fff',
@@ -46,6 +47,7 @@ const Story = () => {
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
+										fontSize: '2rem',
 								  }
 						}
 						contentArrowStyle={{ borderRight: '7px solid  #aec6cf' }}
@@ -70,7 +72,7 @@ const Story = () => {
 							width < breakpoint
 								? {
 										color: '#fff',
-										width: '300px',
+										width: '275px',
 										height: '500px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
@@ -109,8 +111,8 @@ const Story = () => {
 							width < breakpoint
 								? {
 										color: '#fff',
-										width: '300px',
-										minHeight: '500px',
+										width: '275px',
+										height: '500px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
@@ -118,7 +120,7 @@ const Story = () => {
 								: {
 										color: '#fff',
 										width: '375px',
-										minHeight: '550px',
+										height: '550px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
