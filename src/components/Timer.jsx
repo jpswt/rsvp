@@ -23,26 +23,26 @@ const Timer = () => {
 	}, []);
 
 	return (
-		<div className="flex flex-wrap gap-x-10 m-4 items-center justify-center w-full">
-			<div className="border-[1px] flex flex-col items-center p-4 text-primary min-w-[140px]">
+		<div className="my-4 flex w-full  flex-wrap items-center justify-center gap-x-10">
+			<div className="flex min-w-[140px] flex-col items-center border-[1px] p-4 text-primary">
 				<p className=" font-cursive text-6xl font-bold">
 					{days < 10 ? `0${days}` : days}
 				</p>
 				<p>DAYS</p>
 			</div>
-			<div className="border-[1px] flex flex-col items-center p-4 text-primary min-w-[140px]">
+			<div className="flex min-w-[140px] flex-col items-center border-[1px] p-4 text-primary">
 				<p className=" font-cursive text-6xl font-bold">
 					{hours < 10 ? `0${hours}` : hours}
 				</p>
 				<p>HOURS</p>
 			</div>
-			<div className="border-[1px] flex flex-col items-center p-4 text-primary min-w-[140px]">
+			<div className="flex min-w-[140px] flex-col items-center border-[1px] p-4 text-primary">
 				<p className=" font-cursive text-6xl font-bold">
 					{minutes < 10 ? `0${minutes}` : minutes}
 				</p>
 				<p>MINUTES</p>
 			</div>
-			<div className="border-[1px] flex flex-col items-center p-4 text-primary min-w-[140px]">
+			<div className="flex min-w-[140px] flex-col items-center border-[1px] p-4 text-primary">
 				<p className=" font-cursive text-6xl font-bold">
 					{seconds < 10 ? `0${seconds}` : seconds}
 				</p>
