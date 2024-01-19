@@ -1,18 +1,17 @@
 const StoryCard = ({ url, date, title, text }) => {
 	return (
-		<div className=" border-[#aec6cf] w-full h-full p-6 hover:bg-primary hover:ease-in-out hover:duration-500 hover:bg-opacity-20 transition duration-500 ease-out">
+		<div className=" h-full w-full border-[#aec6cf] p-6 transition duration-500 ease-out hover:bg-primary hover:bg-opacity-20 hover:duration-500 hover:ease-in-out">
 			<img src={url} alt="" />
 			<p
 				style={{ fontSize: '40px', margin: '20px 0 0px 0' }}
-				className="text-secondary font-cursive"
+				className="font-cursive text-secondary"
 			>
-				{' '}
 				{title}
 			</p>
 			<p style={{ margin: '0' }} className=" font-nav text-gray-500">
 				{date}
 			</p>
-			<p className=" font-nav text-gray-500 mt-5 ">{text}</p>
+			<p className=" mt-5 font-nav text-gray-500 ">{text}</p>
 		</div>
 	);
 };

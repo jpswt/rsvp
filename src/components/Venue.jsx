@@ -3,23 +3,37 @@ import VenueCard from './VenueCard';
 
 const Venue = () => {
 	return (
-		<div className="max-w-[1200px] m-auto">
-			<Banner title="Venue" idName="venue" />
+		<div className="m-auto max-w-[1200px]">
+			<Banner title="Venue & Lodging" idName="venue" />
 			<VenueCard
 				id={0}
 				url="https://images.unsplash.com/photo-1522143296900-b2c450f80fa7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlZGRpbmclMjBjZXJlbW9ueXxlbnwwfDB8MHx8fDA%3D"
-				title="Wedding Ceremony"
-				date="Saturday April 14, 2023 4:00PM"
+				title="Wedding Venue"
+				date="Saturday April 13, 2023 4:00PM"
 				address="Spinelli's Wedding Venue, Fifth Street, Comfort, TX"
-				info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores fugit aliquid soluta in, quidem animi nulla explicabo aut repudiandae."
+				info="Wedding Ceremony begins at 4:00PM followed by a reception."
+				directions_url="https://maps.app.goo.gl/dCjtEktbRQdXyjWf7"
+				hotel_url="https://www.spinellisvistro.com/"
 			/>
 			<VenueCard
 				id={1}
-				url="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=3874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-				title="Hotel Information"
-				date="Saturday April 14, 2023 4:00PM"
-				address="Holdiay Inn "
-				info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores fugit aliquid soluta in, quidem animi nulla explicabo aut repudiandae."
+				url="https://cache.marriott.com/content/dam/marriott-renditions/SATSN/satsn-suite-0009-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*"
+				title="SpringHill Suites by Marriott"
+				date=""
+				address="18119 Talavera Ridge, San Antonio, TX 78257"
+				info="Travel in style at SpringHill Suites by Marriott San Antonio Northwest at The RIM just minutes from Six Flags Fiesta Texas. Our all-suite hotel seamlessly blends design and functionality, offering modern amenities to keep you refreshed and focused, all at an affordable price!"
+				directions_url="https://maps.app.goo.gl/kaYMHU8qWtY7BALB6"
+				hotel_url="https://www.marriott.com/en-us/hotels/satsn-springhill-suites-san-antonio-northwest-at-the-rim/overview/"
+			/>
+			<VenueCard
+				id={1}
+				url="https://www.hilton.com/im/en/SATRPGI/10939095/25-satrpgi-hilton-garden-inn-san-antonio-at-the-rim-king-bed.jpg?impolicy=crop&cw=4495&ch=2690&gravity=NorthWest&xposition=0&yposition=154&rw=528&rh=316"
+				title="Hilton Garden Inn San Antonio at The Rim"
+				date=""
+				address="5730 Rim Pass, San Antonio, TX 78257"
+				info="Off I-10, we're next to The RIM complex – home to shopping, restaurants, Topgolf, and the Santikos Palladium theater. Our free shuttle covers destinations within five miles, including Six Flags Fiesta Texas and the University of Texas at San Antonio. Our 24-hour Pavilion Pantry offers drinks, snacks, and ready-to-cook meals."
+				directions_url="https://maps.app.goo.gl/XNMcRzqBcJAfuLHD8"
+				hotel_url="https://www.hilton.com/en/hotels/satrpgi-hilton-garden-inn-san-antonio-at-the-rim/"
 			/>
 		</div>
 	);

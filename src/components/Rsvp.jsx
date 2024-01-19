@@ -50,34 +50,34 @@ const Rsvp = () => {
 
 	return (
 		<section
-			className="relative flex flex-col h-screen w-screen bg-left-4 md:bg-right-4 bg-fixed bg-rsvp bg-cover bg-no-repeat mt-24"
+			className="relative mt-24 flex h-screen w-full flex-col bg-rsvp bg-cover bg-fixed bg-left-4 bg-no-repeat md:bg-right-4"
 			id="rsvp"
 		>
 			<div className=" absolute inset-0 bg-primary opacity-30"></div>
-			<div className=" bg-white w-[90%] md:max-w-[560px]  m-auto z-0 min-h-[620px]">
+			<div className=" z-0 m-auto min-h-[620px]  w-[90%] bg-white md:max-w-[560px]">
 				<Banner title="Be Our Guest" idName="" />
-				<p className="text-center pt-4 text-gray-500 font-nav">
-					Please reserve before February 1st, 2024
+				<p className="pt-4 text-center font-nav text-gray-500">
+					Please reserve before March 1st, 2024
 				</p>
-				<form onSubmit={handleSubmit} className="px-6 md:px-20 pt-10">
+				<form onSubmit={handleSubmit} className="px-6 pt-10 md:px-20">
 					<input
 						type="text"
 						name="name"
 						placeholder="Your Name"
-						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 outline-[#aec6cf]"
+						className="mb-4 block w-full rounded-sm border-2 border-[#aec6cf] border-opacity-60 px-2 py-1 outline-[#aec6cf]"
 						onChange={handleChange}
 					/>
 					<input
 						type="email"
 						name="email"
 						placeholder="Your Email"
-						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 outline-[#aec6cf]"
+						className="mb-4 block w-full rounded-sm border-2 border-[#aec6cf] border-opacity-60 px-2 py-1 outline-[#aec6cf]"
 						onChange={handleChange}
 					/>
 					<select
 						name="rsvp"
 						value={guest.rsvp}
-						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 text-gray-400 outline-[#aec6cf]"
+						className="mb-4 block w-full rounded-sm border-2 border-[#aec6cf] border-opacity-60 px-2 py-1 text-gray-400 outline-[#aec6cf]"
 						onChange={handleChange}
 					>
 						<option value="" disabled hidden>
@@ -94,18 +94,18 @@ const Rsvp = () => {
 						cols="30"
 						rows="5"
 						placeholder="Message"
-						className="block border-2 border-[#aec6cf] border-opacity-60 rounded-sm w-full px-2 py-1 mb-4 text-gray-400 outline-[#aec6cf]"
+						className="mb-4 block w-full rounded-sm border-2 border-[#aec6cf] border-opacity-60 px-2 py-1 text-gray-400 outline-[#aec6cf]"
 						onChange={handleChange}
 					/>
 					<div className="flex items-center justify-center">
 						<button
 							type="submit"
-							className="bg-primary px-3 py-1 text-white font-nav rounded-md"
+							className="rounded-md bg-primary px-3 py-1 font-nav text-white"
 						>
 							Send Reservation
 						</button>
 					</div>
-					<div className="text-center font-nav text-secondary text-lg font-semibold mt-2">
+					<div className="mt-2 text-center font-nav text-lg font-semibold text-secondary">
 						{submitMsg ? <p>{submitMsg}</p> : null}
 					</div>
 				</form>

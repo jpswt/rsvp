@@ -1,7 +1,7 @@
 const Button = ({ children, url, target }) => {
 	return (
 		<a
-			className="text-primary border bg-primary py-2 px-4 rounded-2xl w-[120px] text-center "
+			className="w-[120px] rounded-2xl border bg-primary px-4 py-2 text-center text-primary "
 			href={url}
 			target={target}
 		>

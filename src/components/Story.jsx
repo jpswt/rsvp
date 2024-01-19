@@ -20,7 +20,7 @@ const Story = () => {
 	}, []);
 
 	return (
-		<div className="max-w-[1200px] m-auto">
+		<div className="m-auto max-w-[1200px]">
 			<Banner title="Our Story" idName="story" />
 			<div className="mt-10">
 				{/* <BsBalloonHeartFill
@@ -58,10 +58,11 @@ const Story = () => {
 						icon={<GiOppositeHearts className="scale-125 opacity-80" />}
 					>
 						<StoryCard
-							url="https://plus.unsplash.com/premium_photo-1661897744682-39f3fc0f204b?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+							url="https://images.unsplash.com/photo-1556800467-7b7ba9da0bf8?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 							title="Where We Met"
-							date="January 1, 2000"
-							text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,"
+							date="May 26, 2021"
+							text="Sometimes online dating works! At the time we started talking, we were in two different states. Joel was
+							in Louisiana for the summer, and Amanda was preparing for a mission trip to Puerto Rico."
 						/>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
@@ -78,7 +79,7 @@ const Story = () => {
 								: {
 										color: '#fff',
 										width: '375px',
-										height: '500px',
+										height: '525px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
@@ -95,10 +96,12 @@ const Story = () => {
 						className="mt-10 xl:mt-0"
 					>
 						<StoryCard
-							url="https://images.unsplash.com/photo-1509927083803-4bd519298ac4?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+							url="https://plus.unsplash.com/premium_photo-1661897744682-39f3fc0f204b?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 							title="Our First Date"
-							date="January 1, 2000"
-							text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,"
+							date="June 19, 2021"
+							text="After a month of phone conversations, texting, and waiting for each other to be in the same place, we
+							finally got to meet in person. Our first date began at an arcade, followed by yummy barbeque and
+							braving the Texas heat playing mini golf."
 						/>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
@@ -107,7 +110,7 @@ const Story = () => {
 								? {
 										color: '#fff',
 										width: '300px',
-										height: '500px',
+										minHeight: '500px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
@@ -115,7 +118,7 @@ const Story = () => {
 								: {
 										color: '#fff',
 										width: '375px',
-										height: '500px',
+										minHeight: '550px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
@@ -132,10 +135,12 @@ const Story = () => {
 						className="mt-10 xl:mt-0"
 					>
 						<StoryCard
-							url="https://images.unsplash.com/photo-1509927083803-4bd519298ac4?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+							url="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_80,w_1200/v1/crm/neworleans/Jackson_Square_New_Orleans0-d5bedffa5056b36_d5bee3f8-5056-b365-ab1ff9665d41e638.jpg"
 							title="Our Proposal"
-							date="January 1, 2000"
-							text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,"
+							date="July 30, 2023"
+							text="While visiting family in New Orleans, we went to the French Quarter. After walking around the quarter,
+							we decided to take a break. While sitting on a park bench beneath a beautiful weeping willow, Joel
+							popped the question. It was a perfect day involving beignets and a marriage proposal!"
 						/>
 					</VerticalTimelineElement>
 				</VerticalTimeline>
