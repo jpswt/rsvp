@@ -7,7 +7,7 @@ const Venue = () => {
 			<Banner title="Venue & Lodging" idName="venue" />
 			<VenueCard
 				id={0}
-				url="https://images.unsplash.com/photo-1522143296900-b2c450f80fa7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlZGRpbmclMjBjZXJlbW9ueXxlbnwwfDB8MHx8fDA%3D"
+				url="https://www.spinellisvistro.com/wp-content/uploads/2023/09/21231635_1119730958160838_4205099644467485412_n-1.webp"
 				title="Wedding Venue"
 				date="Saturday April 13, 2023 4:00PM"
 				address="Spinelli's Wedding Venue, Fifth Street, Comfort, TX"

@@ -57,7 +57,7 @@ const Rsvp = () => {
 			<div className=" z-0 m-auto min-h-[620px]  w-[90%] bg-white md:max-w-[560px]">
 				<Banner title="Be Our Guest" idName="" />
 				<p className="pt-4 text-center font-nav text-gray-500">
-					Please reserve before March 1st, 2024
+					Please RSVP before March 1st, 2024
 				</p>
 				<form onSubmit={handleSubmit} className="px-6 pt-10 md:px-20">
 					<input
@@ -81,7 +81,7 @@ const Rsvp = () => {
 						onChange={handleChange}
 					>
 						<option value="" disabled hidden>
-							Number of RSVP
+							Number of Guests
 						</option>
 						<option value="1">1</option>
 						<option value="2">2</option>
