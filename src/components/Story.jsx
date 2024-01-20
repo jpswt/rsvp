@@ -34,7 +34,7 @@ const Story = () => {
 								? {
 										color: '#fff',
 										width: '280px',
-										height: '500px',
+										height: '510px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
@@ -71,7 +71,7 @@ const Story = () => {
 								? {
 										color: '#fff',
 										width: '275px',
-										height: '520px',
+										height: '540px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
@@ -110,7 +110,7 @@ const Story = () => {
 								? {
 										color: '#fff',
 										width: '275px',
-										height: '540px',
+										height: '600px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',

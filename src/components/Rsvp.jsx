@@ -56,7 +56,7 @@ const Rsvp = () => {
 			<div className=" absolute inset-0 bg-primary opacity-30"></div>
 			<div className=" z-0 m-auto min-h-[620px]  w-[90%] bg-white md:max-w-[560px]">
 				<Banner title="Be Our Guest" idName="" />
-				<p className="pt-4 text-center font-nav text-gray-500">
+				<p className="pt-4 text-center font-nav text-lg text-gray-500">
 					Please RSVP before March 1st, 2024
 				</p>
 				<form onSubmit={handleSubmit} className="px-6 pt-10 md:px-20">

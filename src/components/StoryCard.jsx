@@ -32,7 +32,7 @@ const StoryCard = ({ url, date, title, text }) => {
 				{date}
 			</p>
 			<p
-				style={width < breakpoint ? { fontSize: '16px' } : { fontSize: '16px' }}
+				style={width < breakpoint ? { fontSize: '18px' } : { fontSize: '16px' }}
 				className=" mt-5 font-nav text-gray-500 "
 			>
 				{text}

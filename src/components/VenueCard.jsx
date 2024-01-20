@@ -14,8 +14,8 @@ const VenueCard = ({
 		<section
 			className={
 				id === 0
-					? 'mt-10 flex flex-col px-4 md:px-20 lg:flex-row lg:px-4 xl:px-0'
-					: 'mt-10 flex flex-col px-4 md:px-20 lg:flex-row-reverse lg:px-4 xl:px-0'
+					? 'mt-10 flex flex-col px-4 text-lg md:px-20 md:text-base lg:flex-row lg:px-4 xl:px-0'
+					: 'mt-10 flex flex-col px-4 text-lg md:px-20 md:text-base lg:flex-row-reverse lg:px-4 xl:px-0'
 			}
 		>
 			<img src={url} alt={title} className=" w-full lg:max-w-[37%]" />
