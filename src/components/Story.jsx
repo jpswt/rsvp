@@ -38,7 +38,6 @@ const Story = () => {
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
-										fontSize: '2rem',
 								  }
 								: {
 										color: '#fff',
@@ -47,7 +46,6 @@ const Story = () => {
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
-										fontSize: '2rem',
 								  }
 						}
 						contentArrowStyle={{ borderRight: '7px solid  #aec6cf' }}
