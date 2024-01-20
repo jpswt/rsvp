@@ -71,7 +71,7 @@ const Story = () => {
 								? {
 										color: '#fff',
 										width: '275px',
-										height: '500px',
+										height: '520px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
@@ -110,7 +110,7 @@ const Story = () => {
 								? {
 										color: '#fff',
 										width: '275px',
-										height: '500px',
+										height: '540px',
 										boxShadow: 'none',
 										border: '2px solid #aec6cf',
 										padding: '0',
