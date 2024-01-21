@@ -14,7 +14,11 @@ const StoryCard = ({ url, date, title, text }) => {
 			<p
 				style={
 					width < breakpoint
-						? { fontSize: '30px', margin: '20px 0 0px 0' }
+						? {
+								fontSize: '30px',
+								margin: '20px 0 0px 0',
+								fontWeight: 600,
+						  }
 						: { fontSize: '40px', margin: '20px 0 0px 0' }
 				}
 				className="font-cursive text-secondary"
@@ -24,7 +28,7 @@ const StoryCard = ({ url, date, title, text }) => {
 			<p
 				style={
 					width < breakpoint
-						? { fontSize: '15px', margin: '0px' }
+						? { fontSize: '16px', margin: '0px' }
 						: { fontSize: '16px', margin: '0px' }
 				}
 				className=" font-nav text-9xl text-gray-500"
