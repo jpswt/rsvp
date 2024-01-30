@@ -11,7 +11,7 @@ const Gift = () => {
 				organization that is near to our hearts.
 			</p>
 			<div className="mt-4">
-				<div className="flex items-center justify-center gap-8 lg:gap-36">
+				<div className="flex flex-col items-center justify-center gap-8 lg:gap-36">
 					<a
 						href="https://www.komen.org/"
 						target="_blank"
