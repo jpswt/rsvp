@@ -26,7 +26,7 @@ const Modal = ({ showModal, setShowModal, imgSrc }) => {
 					modalVisible ? 'opacity-100' : 'opacity-0'
 				}`}
 			>
-				<div className="mb-2 w-full pr-10 text-right lg:w-1/2">
+				<div className="mb-2 w-full pr-2 text-right lg:w-1/2 lg:pr-10">
 					<button
 						onClick={closeModal}
 						className=" text-md border border-gray-50 px-[8px] py-[2px] font-nav text-white"
@@ -38,7 +38,7 @@ const Modal = ({ showModal, setShowModal, imgSrc }) => {
 				<img
 					src={imgSrc}
 					alt=""
-					className=" aspect-auto object-contain px-10 lg:h-[90%] lg:w-1/2"
+					className=" aspect-auto object-contain px-2 lg:h-[90%] lg:w-1/2"
 				/>
 			</div>
 		</div>
