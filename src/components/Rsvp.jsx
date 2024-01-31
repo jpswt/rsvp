@@ -63,14 +63,14 @@ const Rsvp = () => {
 					<input
 						type="text"
 						name="name"
-						placeholder="Your Name"
+						placeholder="Full Name"
 						className="mb-4 block w-full rounded-sm border-2 border-[#aec6cf] border-opacity-60 px-2 py-1 outline-[#aec6cf]"
 						onChange={handleChange}
 					/>
 					<input
 						type="email"
 						name="email"
-						placeholder="Your Email"
+						placeholder="Email"
 						className="mb-4 block w-full rounded-sm border-2 border-[#aec6cf] border-opacity-60 px-2 py-1 outline-[#aec6cf]"
 						onChange={handleChange}
 					/>
