@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './Banner';
 import { firestore } from '../firebase';
 import { collection, addDoc } from 'firebase/firestore';
+import emailjs from '@emailjs/browser';
 
 const Rsvp = () => {
 	const [guest, setGuest] = useState({
@@ -11,6 +12,20 @@ const Rsvp = () => {
 		message: '',
 	});
 	const [submitMsg, setSubmitMsg] = useState('');
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+		emailjs
+			.send('service_4m3ch8l', 'template_f9m66nw', guest, '2W8Xeo2kxz5dOXvQL')
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
+	};
 
 	const db = collection(firestore, 'guests');
 
@@ -24,6 +39,7 @@ const Rsvp = () => {
 				message: guest.message,
 			});
 			setSubmitMsg('Your reservation has been sent!');
+			sendEmail(e);
 			setTimeout(() => {
 				setSubmitMsg('');
 				e.target.reset();
