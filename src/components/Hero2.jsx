@@ -1,10 +1,22 @@
+import { useEffect, useState } from 'react';
 import HeroHeart from '../assets/images/HeroHeart.png';
 import Button from './Button';
 
 const Hero2 = () => {
+	const [width, setWidth] = useState(window.innerWidth);
+	const breakpoint = 768;
+	useEffect(() => {
+		const handleResize = () => setWidth(window.innerWidth);
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
+	}, []);
 	return (
 		<div
-			className="relative mt-24 h-1/2 w-screen bg-rsvp bg-cover bg-fixed bg-center  bg-no-repeat"
+			className={
+				width < breakpoint
+					? 'relative mt-24 h-1/2 w-screen bg-rsvp bg-cover bg-center bg-no-repeat'
+					: 'relative mt-24 h-1/2 w-screen bg-rsvp bg-cover bg-fixed bg-center bg-no-repeat'
+			}
 			id="home"
 		>
 			<div className=" absolute inset-0 bg-primary opacity-30"></div>

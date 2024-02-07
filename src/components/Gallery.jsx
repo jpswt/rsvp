@@ -2,6 +2,8 @@ import { useState } from 'react';
 import Banner from './Banner';
 import Modal from './Modal';
 
+import Portrait1 from '../assets/images/DSC_8903.jpg';
+
 const Gallery = () => {
 	const [showModal, setShowModal] = useState(false);
 	const [imgSrc, setImgSrc] = useState('');
@@ -15,15 +17,15 @@ const Gallery = () => {
 		<div className="m-auto max-w-[1200px]">
 			<Banner title="Gallery" />
 			<div className="mt-10 columns-1 gap-6 p-4 md:columns-2 lg:columns-2 lg:gap-6 xl:columns-3 ">
-				<div className=" relative mb-6 min-h-[368px] min-w-[368px]  overflow-hidden rounded-md">
+				<div className=" min-[368px] relative mb-6 min-h-[368px]  overflow-hidden rounded-md">
 					<img
 						onClick={() =>
 							openModal(
 								'https://firebasestorage.googleapis.com/v0/b/rsvp-2a7df.appspot.com/o/DSC_8903.JPG?alt=media&token=25d51e4d-9212-4502-8f4d-1cd831d3fd3b'
 							)
 						}
-						className=" absolute left-0 top-[-180px] min-h-[368px] min-w-[368px] cursor-pointer object-cover transition-all duration-500 hover:scale-110 xl:top-[-60px]"
-						src="https://firebasestorage.googleapis.com/v0/b/rsvp-2a7df.appspot.com/o/DSC_8903.JPG?alt=media&token=25d51e4d-9212-4502-8f4d-1cd831d3fd3b"
+						className=" absolute left-0 top-[-80px] min-h-[368px] min-w-[368px] cursor-pointer object-cover transition-all duration-500 hover:scale-110 xl:top-[-60px]"
+						src={Portrait1}
 						alt=""
 					/>
 				</div>

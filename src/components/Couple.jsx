@@ -1,4 +1,5 @@
 import brushHeart from '../assets/images/brush-stroke-heart.png';
+import Groom from '../assets/images/DSC_8909.jpg';
 import Banner from './Banner';
 
 const Couple = () => {
@@ -25,7 +26,7 @@ const Couple = () => {
 				<div className="flex flex-col items-center justify-center font-nav">
 					<img
 						className=" h-[350px] w-[350px] -scale-x-100 rounded-full border-2 border-[#aec6cf] object-cover object-bottom md:h-[420px] md:w-[420px]"
-						src="https://firebasestorage.googleapis.com/v0/b/rsvp-2a7df.appspot.com/o/DSC_8909.JPG?alt=media&token=1d0660a2-5724-4bca-b8c9-e447df75930c"
+						src={Groom}
 						alt=""
 					/>
 					<h2 className="mt-4 text-center text-2xl font-medium text-secondary">
