@@ -15,11 +15,6 @@ const Couple = () => {
 					<h2 className="mt-4 text-center text-2xl font-medium text-secondary">
 						AMANDA LAURIA
 					</h2>
-					<p className="p-4 text-center text-lg md:max-w-[60%] md:p-0 lg:max-w-full">
-						Hi I am Amanda Lauria. I am going to introduce myself.I am a
-						professional graphic designer professional graphic designer going to
-						introduce myself.I am going to introduce myself.
-					</p>
 				</div>
 
 				<img
@@ -29,18 +24,13 @@ const Couple = () => {
 				/>
 				<div className="flex flex-col items-center justify-center font-nav">
 					<img
-						className="object-auto h-[350px] w-[350px] rounded-full border-2 border-[#aec6cf] md:h-[420px] md:w-[420px]"
-						src="https://images.unsplash.com/photo-1606216769783-a7dbe227a17f?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+						className=" h-[350px] w-[350px] -scale-x-100 rounded-full border-2 border-[#aec6cf] object-cover object-bottom md:h-[420px] md:w-[420px]"
+						src="https://firebasestorage.googleapis.com/v0/b/rsvp-2a7df.appspot.com/o/DSC_8909.JPG?alt=media&token=1d0660a2-5724-4bca-b8c9-e447df75930c"
 						alt=""
 					/>
 					<h2 className="mt-4 text-center text-2xl font-medium text-secondary">
 						JOEL PEREZ
 					</h2>
-					<p className="p-4 text-center text-lg md:max-w-[60%] md:p-0 lg:max-w-full">
-						Hi I am Joel Perez. I am going to introduce myself.I am a
-						professional graphic designer professional graphic designer going to
-						introduce myself.I am going to introduce myself.
-					</p>
 				</div>
 			</article>
 		</section>
