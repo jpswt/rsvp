@@ -66,7 +66,7 @@ const Rsvp = () => {
 
 	return (
 		<section
-			className="relative mt-24 flex h-screen w-full flex-col bg-rsvp bg-cover bg-fixed bg-left-4 bg-no-repeat md:bg-right-4"
+			className="bg-rform relative mt-24 flex h-screen w-full flex-col bg-cover bg-fixed bg-left-4 bg-no-repeat md:bg-right-4"
 			id="rsvp"
 		>
 			<div className=" absolute inset-0 bg-primary opacity-30"></div>

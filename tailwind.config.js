@@ -20,6 +20,7 @@ export default {
 				hero: "url('../src/assets/images/DSC_8950.jpg')",
 				heart: "url('../src/assets/images/HeroHeart.png')",
 				rsvp: "url('../src/assets/images/DSC_8958.jpg')",
+				rform: "url('../src/assets/images/DSC_8988.jpg')",
 			},
 			backgroundPosition: {
 				'left-4': 'center left -14rem',

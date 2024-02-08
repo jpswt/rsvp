@@ -19,7 +19,7 @@ const Hero2 = () => {
 			}
 			id="home"
 		>
-			<div className=" absolute inset-0 bg-primary opacity-30"></div>
+			<div className=" absolute inset-0 bg-primary opacity-25"></div>
 
 			<div className="flex h-full min-h-[500px] items-center justify-center">
 				<div className="top-50 left-50 lg:top-50 lg:left-50 absolute flex w-full flex-col items-center justify-center gap-6  md:w-1/2">
