@@ -1,6 +1,6 @@
 import brushHeart from '../assets/images/brush-stroke-heart.png';
 import Groom from '../assets/images/DSC_8909.jpg';
-import Bride from '../assets/images/DSC_8908.jpg';
+import Bride from '../assets/images/DSC_8908_min.jpg';
 import Banner from './Banner';
 
 const Couple = () => {
