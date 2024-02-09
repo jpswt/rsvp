@@ -1,6 +1,15 @@
+import { useEffect, useState } from 'react';
 import Banner from './Banner';
 
 const Gift = () => {
+	const [width, setWidth] = useState(window.innerWidth);
+	const breakpoint = 768;
+	useEffect(() => {
+		const handleResize = () => setWidth(window.innerWidth);
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
+	}, []);
+
 	return (
 		<div className="m-auto mb-20 max-w-[1200px] font-nav">
 			<Banner title="Gift Registry" idName="gift" />
@@ -24,6 +33,11 @@ const Gift = () => {
 						/>
 						<p className=" mt-4 p-0">Please dedicate donation to: </p>
 						<p className="mt-0 p-0 text-lg font-semibold">Martha V. Perez</p>
+						{width < breakpoint ? (
+							<button className="rounded-md bg-[#aec6cf] px-2 text-white">
+								Visit Site
+							</button>
+						) : null}
 					</a>
 					<a
 						href="https://axiainternational.net/user/login?redirectUrl=https%3A%2F%2Faxiainternational.net%2Forganization%2Fsubscribe%2F897-2270NWF"
@@ -37,6 +51,11 @@ const Gift = () => {
 						/>
 						<p className=" mt-2 p-0">Uniting the Church to Fight</p>
 						<p className="mt-0 p-0 "> Human Trafficking</p>
+						{width < breakpoint ? (
+							<button className="rounded-md bg-[#aec6cf] px-2 text-white">
+								Visit Site
+							</button>
+						) : null}
 					</a>
 				</div>
 			</div>
