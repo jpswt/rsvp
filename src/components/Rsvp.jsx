@@ -66,14 +66,14 @@ const Rsvp = () => {
 
 	return (
 		<section
-			className="bg-rform relative mt-24 flex h-screen w-full flex-col bg-cover bg-fixed bg-left-4 bg-no-repeat md:bg-right-4"
+			className="relative mt-24 flex h-screen w-full flex-col bg-rform bg-cover bg-fixed bg-left-4 bg-no-repeat md:bg-right-4"
 			id="rsvp"
 		>
 			<div className=" absolute inset-0 bg-primary opacity-30"></div>
 			<div className=" z-0 m-auto min-h-[620px]  w-[90%] bg-white md:max-w-[560px]">
 				<Banner title="Be Our Guest" idName="" />
 				<p className="pt-4 text-center font-nav text-lg text-gray-500">
-					Please RSVP before March 1st, 2024
+					Please RSVP before March 15th, 2024
 				</p>
 				<form onSubmit={handleSubmit} className="px-6 pt-10 md:px-20">
 					<input
